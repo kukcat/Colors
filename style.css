@@ -1,0 +1,61 @@
+.red_b{
+    background-color: red;
+}
+.green_b{
+    background-color: green;
+}
+.blue_b{
+    background-color: blue;
+}
+
+.top div{
+    height: 100px;
+}
+
+.middle {
+   
+    margin-top: 20px;
+}
+
+.m_top div {
+    display: inline-block;
+    width: 33.3%;
+    height: 100px;
+   
+}
+
+.m_middle{
+    background-color: yellow;
+    height: 100px;
+    margin-top: -4px;
+}
+
+.m_bottom div{
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+}
+
+.m_bottom div:nth-child(1){
+    background-color:grey;
+}
+
+
+.m_bottom div:nth-child(2){
+    background-color:black;
+}
+
+.bottom {
+    background-color: rgba(0, 200, 0, 0.5);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.bottom div {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+
